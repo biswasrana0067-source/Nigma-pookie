@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ID Card (Pookie Version)</title>
+    <style>
+        /* General styling for the card container */
+        body {
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f0f8ff; /* Light, soft background */
+        }
+
+        .id-card {
+            width: 300px; /* Standard ID card width */
+            padding: 20px;
+            border: 10px solid #ffb6c1; /* Pookie color - Pink border */
+            border-radius: 20px; /* Rounded corners for softness */
+            background-color: #ffffff;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Soft shadow */
+            text-align: center;
+        }
+
+        /* Header Styling */
+        h1 {
+            color: #87ceeb; /* Sky blue for a gentle contrast */
+            margin-bottom: 0px;
+            font-size: 1.8em;
+            text-transform: uppercase;
+        }
+
+        h6 {
+            color: #6a5acd; /* Light purple for secondary text */
+            margin-top: 5px;
+            margin-bottom: 5px;
+            font-weight: 400;
+            font-size: 0.8em;
+        }
+
+        .motto {
+            color: #ff69b4; /* Hot pink for emphasis */
+            font-style: italic;
+            border-bottom: 2px solid #ffe4e1; /* Light divider */
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+        }
+
+        /* Image Styling */
+        img {
+            width: 120px; /* Circular image for cuteness */
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #fffacd; /* Light yellow/cream border */
+            margin-bottom: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Name Styling */
+        h2 {
+            color: #4682b4; /* Steel blue for the name */
+            font-size: 1.5em;
+            margin-top: 0;
+            margin-bottom: 10px;
+            text-transform: capitalize;
+        }
+
+        /* Details Styling */
+        p {
+            margin: 5px 0;
+            color: #444;
+            font-size: 0.9em;
+            line-height: 1.4;
+            padding: 2px 0;
+            border-bottom: 1px dotted #e0ffff; /* Subtle divider for lines */
+        }
+        
+        p:last-child {
+            border-bottom: none;
+            font-weight: bold;
+            color: #e9967a; /* Dark salmon for the important 'Valid Till' date */
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="id-card">
+        <h1>MID MALLEY</h1>
+        <h6>INTERNATIONAL COLLEGE</h6>
+        <h6 class="motto">VALLEY OF CHAMPIONS</h6>
+        <img src="https://scontent.fktm7-1.fna.fbcdn.net/v/t1.15752-9/582452326_693656603463956_282795061610193916_n.webp?_nc_cat=100&ccb=1-7&_nc_sid=0024fc&_nc_ohc=huXi6YrJ0foQ7kNvwF19F7Q&_nc_oc=Adk6Q3ZwsQ9qcQB5gjvlORl5ZbHALJtA3YDwPAnK6aXArBg6j3ryhvLhVLblJ_cGxTbYUqLMjvOCbTS8TxRCTBxR&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.fktm7-1.fna&oh=03_Q7cD3wHhLSuS5azmC_-tczGl54g98QaSXmlMuXEsfxQr367Juw&oe=69440C9E" alt="Student Photo">
+        <h2>Nigma Lama</h2>
+        <p>Programme: Bachelor of Information Technology (Hons)</p>
+        <p>Intake : July 2025</p>
+        <p>Batch : 4</p>
+        <p>Valid Till : 31<sup>st</sup>. December 2029</p>
+    </div>
+</body>
+</html>
